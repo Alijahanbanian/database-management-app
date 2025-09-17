@@ -1,0 +1,37 @@
+Functional Dependency:
+  ('ProgramIdentifier', 'ProgramFullName') → ProgramCommonName
+  ('ProgramIdentifier', 'ProgramFullName') → ProgramAcronymName
+  ('ProgramIdentifier', 'ProgramFullName') → ProgramInterestType
+  ('ProgramIdentifier', 'ProgramFullName') → ProgramDescription
+  ('ProgramIdentifier', 'ProgramFullName') → ElectronicAddressText
+  ('ProgramIdentifier', 'ProgramFullName') → ElectronicAddressTypeName
+
+Partial Dependencies:
+  it has no partial dependency
+
+Transitive Dependencies:
+  ('ProgramInterestType',) → ProgramCommonName
+  ('ProgramDescription',) → ProgramCommonName
+  ('ProgramAcronymName', 'ProgramInterestType') → ProgramCommonName
+  ('ProgramAcronymName', 'ProgramDescription') → ProgramCommonName
+  ('ProgramInterestType', 'ProgramDescription') → ProgramCommonName
+  ('ProgramAcronymName', 'ProgramInterestType', 'ProgramDescription') → ProgramCommonName
+  ('ProgramCommonName',) → ProgramAcronymName
+  ('ProgramInterestType',) → ProgramAcronymName
+  ('ProgramDescription',) → ProgramAcronymName
+  ('ProgramCommonName', 'ProgramInterestType') → ProgramAcronymName
+  ('ProgramCommonName', 'ProgramDescription') → ProgramAcronymName
+  ('ProgramInterestType', 'ProgramDescription') → ProgramAcronymName
+  ('ProgramCommonName', 'ProgramInterestType', 'ProgramDescription') → ProgramAcronymName
+  ('ProgramCommonName',) → ProgramInterestType
+  ('ProgramDescription',) → ProgramInterestType
+  ('ProgramCommonName', 'ProgramAcronymName') → ProgramInterestType
+  ('ProgramCommonName', 'ProgramDescription') → ProgramInterestType
+  ('ProgramAcronymName', 'ProgramDescription') → ProgramInterestType
+  ('ProgramCommonName', 'ProgramAcronymName', 'ProgramDescription') → ProgramInterestType
+  ('ProgramCommonName',) → ProgramDescription
+  ('ProgramInterestType',) → ProgramDescription
+  ('ProgramCommonName', 'ProgramAcronymName') → ProgramDescription
+  ('ProgramCommonName', 'ProgramInterestType') → ProgramDescription
+  ('ProgramAcronymName', 'ProgramInterestType') → ProgramDescription
+  ('ProgramCommonName', 'ProgramAcronymName', 'ProgramInterestType') → ProgramDescription

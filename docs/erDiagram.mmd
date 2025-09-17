@@ -1,0 +1,71 @@
+erDiagram
+    Facilities {
+        TEXT registry_id PK
+        TEXT facility_site_name
+        TEXT location_address_text
+        TEXT electronic_address
+        TEXT electronic_address_typename
+    }
+
+    Coordinates {
+        TEXT registry_id PK
+        REAL latitude_measure
+        REAL longitude_measure
+        TEXT horizontal_coordinate_reference_system_datum_name
+        TEXT horizontal_collection_method_name
+    }
+
+    Locations {
+        TEXT registry_id PK
+        TEXT location_zip_code
+        TEXT locality_name
+        TEXT location_address_state_code
+    }
+
+    ProgramAttributes {
+        TEXT interest_type_id PK
+        TEXT program_common_name
+        TEXT program_acronym_name
+        TEXT program_description
+        TEXT electronic_address
+        TEXT electronic_address_typename
+    }
+
+    Programs {
+        TEXT program_identifier PK
+        TEXT program_full_name PK
+        TEXT interest_type_id FK
+    }
+
+    FacilityPrograms {
+        TEXT registry_id FK
+        TEXT program_identifier FK
+        TEXT program_full_name FK
+    }
+
+    JobTitles {
+        TEXT job_title PK
+        TEXT department
+    }
+
+    Employees {
+        INTEGER id PK
+        TEXT first_name
+        TEXT last_name
+        TEXT email
+        TEXT phone
+        TEXT gender
+        INTEGER age
+        TEXT job_title FK
+        INTEGER years_of_experience
+        REAL salary
+    }
+
+    Facilities ||--o{ Coordinates : "has"
+    Facilities ||--o{ Locations : "has"
+    Facilities ||--o{ FacilityPrograms : "enrolled in"
+
+    Programs ||--o{ FacilityPrograms : "linked to"
+    ProgramAttributes ||--o{ Programs : "describes"
+
+    JobTitles ||--o{ Employees : "assigned to"

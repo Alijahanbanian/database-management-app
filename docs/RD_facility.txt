@@ -1,0 +1,687 @@
+Functional Dependency:
+  ('registryId',) → FacilitySiteName
+  ('registryId',) → LocationAddressText
+  ('registryId',) → LocationZIPCode
+  ('registryId',) → LocalityName
+  ('registryId',) → LocationAddressStateCode
+  ('registryId',) → LatitudeMeasure
+  ('registryId',) → LongitudeMeasure
+  ('registryId',) → HorizontalCoordinateReferenceSystemDatumName
+  ('registryId',) → HorizontalCollectionMethodName
+  ('registryId',) → ElectronicAddressText
+  ('registryId',) → ElectronicAddressTypeName
+  
+Transitive Dependencies:
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationZIPCode
+  ('FacilitySiteName', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocalityName
+  ('FacilitySiteName', 'LocationZIPCode') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LocationAddressStateCode
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LatitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName', 'HorizontalCollectionMethodName') → LongitudeMeasure
+  ('FacilitySiteName',) → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText',) → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode',) → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName',) → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode',) → HorizontalCoordinateReferenceSystemDatumName
+  ('LatitudeMeasure',) → HorizontalCoordinateReferenceSystemDatumName
+  ('LongitudeMeasure',) → HorizontalCoordinateReferenceSystemDatumName
+  ('HorizontalCollectionMethodName',) → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCollectionMethodName') → HorizontalCoordinateReferenceSystemDatumName
+  ('FacilitySiteName', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
+  ('FacilitySiteName', 'LocationAddressText', 'LocationZIPCode', 'LocalityName', 'LocationAddressStateCode', 'LatitudeMeasure', 'LongitudeMeasure', 'HorizontalCoordinateReferenceSystemDatumName') → HorizontalCollectionMethodName
