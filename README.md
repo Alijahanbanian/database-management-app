@@ -61,10 +61,6 @@ database-management-app/
 - Place `app.py` in the root for easy execution.
 - Use `docs/` for supporting files like relational dependencies and ER diagrams.
 - The `data/` folder is for dataset files (`EPAXML.xml`, `project.json`) and the generated `project.db`.
-  ```
- 
-
----
 
 ## Installation & Setup
 
